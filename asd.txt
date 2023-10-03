@@ -1,0 +1,17 @@
+     <div>
+        <h1>ayy chavito k ric0 aprieta</h1>
+        <p>holiiiis</p>
+    <article class="flotante">
+        <h1 class="custom-li1">Zombie</h1>
+        </p> <img src="D:\Chris Di Gregory tp\Baby_Zombie_JE2_BE2.webp" alt="Walter White">
+      </div>
+    </article>
+    <article class="flotante">
+      <h1 class="custom-li1">Araña</h1>
+      </p> <img src="D:\Chris Di Gregory tp\Spider_JE4_BE3.png" alt="Walter White" width="350px">
+    </div>
+  </article>
+  </div>
+  <p>holiiiiis</p>
+</body>
+</html>

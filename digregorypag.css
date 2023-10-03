@@ -1,0 +1,292 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-size: cover;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 1px 0;
+    margin-top: 25px;
+    padding-left: 15px;
+
+}
+.header_2{
+  background-size: cover;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+}
+.container{
+    max-width: 1500px;
+    margin: 0px auto;
+    padding: 0px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(211, 47, 47, 0.2);
+    text-align: center;
+    background-image: url(https://i.imgur.com/5G2vHuA.png);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.content{
+    margin-top: 20px;
+    text-align: left;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.custom-h2{
+    font-size: 36px;
+    font-family: 'Acme', sans-serif;
+}
+.left-align{
+    text-align: left;
+}
+.custom-li1 {
+      font-size: 18px;
+      text-align: left;
+      margin-left: 10px;
+}
+.divdisplay{
+
+}
+p{
+    text-align: left;
+}
+article {
+    border: solid 2px;
+    width: 307px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.article1{
+    border: none;
+    display: inline-block;
+}
+.p1{
+  text-align: left;
+  padding-left: 15px;
+}
+li{
+  text-align: left;
+  padding-left: 10px;
+}
+.logo{
+    float: right;
+    width: 120px;
+    height: 120px;
+    margin-top: -1px;
+    margin-right: 3px
+}
+.flotante{
+    float: left;
+    display: flex;
+    margin-right: 10px;
+
+}
+.center-align{
+    text-align: center;
+}
+.right-align{
+    text-align: right;
+
+
+}
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 3px;
+    margin-top: 5px;
+  }
+.article-container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 3x;
+    display: flex;
+    flex: 1;
+    margin-right: 10px;
+}
+.imagen-articulo{
+    max-width: 100%;
+    height: 350px;
+    width: 250px;
+}
+.txtright{
+float: right;
+width: 120px;
+height: 120px;
+margin-top: -1px;
+margin-right: 3px
+}
+.txtarticle{
+    font-size: 20px;
+    text-align: left;
+}
+.articleinicial{
+    border: solid 2px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: black;
+    color: white;
+    padding-left: 5px;
+    font-size: 15px;
+    
+}
+.veintepx{
+    font-size: 20px;
+    text-align: left;
+
+}
+.subtitulos{
+    font-family: 'Acme', sans-serif;
+}
+.custom-li2{
+    text-align: center;
+    font-size: 22px;
+
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  #nav-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+   nav a {
+    margin: 0 10px;
+  }
+  nav {
+    display: flex;
+    margin-right: 220px;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+  }
+  
+  nav a {
+    margin-right: 15px;
+  }
+  h2{
+    text-align: center;
+  }
+  .carousel {
+    position: relative;
+    width: 75%;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 2px solid black;
+  }
+  
+  .carousel img {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px;
+    opacity: 0.9;
+
+  }
+  
+  .carousel img.active {
+    display: block;
+
+  }
+  
+  .carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .carousel-controls span {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 50px;
+    margin-top: -12px;
+    color: white;
+  }
+  
+  .carousel-controls .prev {
+    float: left;
+    margin-left: 10px;
+    text-shadow: 1px 3px black;
+  }
+  
+  .carousel-controls .next {
+    float: right;
+    margin-right: 10px;
+    text-shadow: 1px 3px black;
+  }
+  .article3{
+    margin-top: 10px;
+    border-radius: 0px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  }
+  h3{
+  text-align: left;
+
+  }
+  .img2{
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+  }
+  .img-minecraft2{
+    width: 95.4%;
+    margin-top: -px;
+  }
+  
+  .container2{
+    max-width: 1500px;
+    margin: 0px auto;
+    margin-top: -3.422px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(211, 47, 47, 0.2);
+    text-align: center;
+    background-image: url(https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/feature-content/bg-wool-light.png);
+}
+.img3{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.article-section2{
+  border-color: transparent;
+  background-color: white;
+  align-content: center;
+  display: flex;
+
+}
+.article-container3{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3x;
+  display: flex;
+  flex: 1;
+  margin-right: 10px;
+}
+.articleinicial1{
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-color: none;
+  padding-left: 5px;
+  font-size: 15px;
+  
+}
+.article4 {
+  border: none;
+  width: 307px;
+  background-color: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href="F:\Chris Di Gregory tp\digregorypag.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+<script src="F:\Chris Di Gregory tp\javascriptnazi.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft</title>
+  
+</head>
+
+<body id="fondito">
+    <header>
+        <article class="article1">
+            <a href="https://www.minecraft.net/es-es" target="_blank">
+                <img src="F:\Chris Di Gregory tp\Img\logaster-2020-06-image14-3.png" alt="Minecraft" width="200px" class="hover" href="https://www.minecraft.net/es-es">
+            </a>
+        </article>
+        <nav>
+            <a href="Untitled-1.html" target="_blank">Inicio</a>
+            <a href="MODS.HTML" target="_blank">Mods</a>
+            <a href="MAPAS.html" target="_blank">Mapas</a>
+            <a href="CONTACTO.html" target="_blank">Contacto</a>
+          </nav>
+
+          <div id="logo">
+            <img src="F:\Chris Di Gregory tp\Img\Diseño sin título.png" alt="logo" align-right width="200px" class="logo">
+          </div>
+
+    </header>
+    
+  </div>
+<div class="container">
+  <h2 class="custom-h2">¡Cuentanos tu opinion!</h2>
+  <div class="content">
+    
+  </div>
+    
+</body>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Casilla de Comentarios</title>
+    <style>
+        /* Estilo básico para la casilla de comentarios */
+        #comment-box {
+            width: 400px;
+            margin: 20px auto;
+        }
+        #comment-box textarea {
+            width: 100%;
+            height: 100px;
+        }
+        #comments {
+            margin-top: 20px;
+        }
+        .comment {
+            margin-bottom: 10px;
+        }
+        .user-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .user-info {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Comentarios</h1>
+    
+    <!-- Casilla de comentarios -->
+    <div id="comment-box">
+        <h2>Agregar Comentario</h2>
+        <div class="user-info">
+            <img class="user-avatar" src="avatar.jpg" alt="Avatar del usuario">
+            <input type="text" id="user-name" placeholder="Nombre de usuario">
+        </div>
+        <textarea id="comment-text" placeholder="Escribe tu comentario aquí"></textarea>
+        <button onclick="agregarComentario()">Agregar Comentario</button>
+    </div>
+    
+    <!-- Comentarios preexistentes -->
+    <div id="comments">
+        <h2>Comentarios </h2>
+        <ul id="comment-list">
+            <!-- Ejemplo de comentario con imagen de perfil y nombre de usuario -->
+            <li class="comment">
+                Este es un comentario de ejemplo.
+                <div class="user-info">
+                    <img class="user-avatar" src="C:\Users\rocha\OneDrive\Escritorio\MINECRAFT HTML\Spider_JE4_BE3" alt="Avatar del usuario">
+                    <span class="user-name">Usuario1:</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        // Función para agregar un comentario nuevo
+        function agregarComentario() {
+            var commentText = document.getElementById("comment-text").value;
+            var userName = document.getElementById("user-name").value;
+            var commentList = document.getElementById("comment-list");
+            
+            // Crear un nuevo elemento de lista (comentario) con imagen de perfil y nombre de usuario
+            var newComment = document.createElement("li");
+            newComment.className = "comment";
+            
+            newComment.appendChild(document.createTextNode(commentText));
+            
+            var userDiv = document.createElement("div");
+            userDiv.className = "user-info";
+            
+            var userAvatar = document.createElement("img");
+            userAvatar.className = "user-avatar";
+            userAvatar.src = "C:\Users\rocha\Escritorio\MINECRAFT HTML\Spider_JE4_BE3"; // Cambia la URL de la imagen de perfil
+            userAvatar.alt = "Avatar del usuario";
+            userDiv.appendChild(userAvatar);
+            
+            var userNameSpan = document.createElement("span");
+            userNameSpan.className = "user-name";
+            userNameSpan.appendChild(document.createTextNode(userName + ": "));
+            userDiv.appendChild(userNameSpan);
+            
+            newComment.appendChild(userDiv);
+            
+            commentList.appendChild(newComment);
+            
+            // Limpia el área de texto y el campo de nombre de usuario
+            document.getElementById("comment-text").value = "";
+            document.getElementById("user-name").value = "";
+        }
+    </script>
+</body>
+</html>
